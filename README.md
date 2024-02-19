@@ -1,0 +1,1 @@
+### This is the code for gas leaking detection made using a maste slave connection of esp where the mq2 iconnnected to 1 esp kept in ketchen checks for the value and when there is a variation a buzzer would beep in hall where the other esp is kept
