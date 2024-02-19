@@ -1,5 +1,3 @@
-//master mac address:  40:22:D8:ED:7C:A0
-//slave mac address:  08:D1:F9:ED:99:FC
 
 // CODE FOR FINDING MAC-ADDRESS OF ESP32
 
@@ -49,7 +47,7 @@ void setup() {
   esp_now_register_recv_cb(OnDataRecv);
 
   // Add the MAC address of the sender
-  uint8_t senderMacAddress[] = {0x40, 0x22, 0xD8, 0xED, 0x7C, 0xA0};
+  uint8_t senderMacAddress[] = { mac addres of sender  on form 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0};
   memcpy(peerInfo.peer_addr, senderMacAddress, 6);
   peerInfo.channel = 0;
   peerInfo.encrypt = false;
