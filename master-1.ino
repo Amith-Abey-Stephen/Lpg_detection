@@ -1,7 +1,7 @@
 #include <esp_now.h>
 #include <WiFi.h>
 
-uint8_t broadcastAddress[] = {0x08, 0xD1, 0xF9, 0xE0, 0x13, 0x5C};
+uint8_t broadcastAddress[] = {mac address in form 0x0A, 0x0A, 0x0A, 0x0A, 0x0A, 0x0A};
 int button = 14;
 #define MQ2pin 34 // Pin on the ESP32 connected to the MQ2 sensor
 
